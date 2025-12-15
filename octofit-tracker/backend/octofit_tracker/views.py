@@ -1,3 +1,6 @@
+"""
+Non-functional change for commit/sync
+"""
 from rest_framework import viewsets
 from .models import User, Team, Activity, Workout, Leaderboard
 from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, WorkoutSerializer, LeaderboardSerializer
